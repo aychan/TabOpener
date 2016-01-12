@@ -1,0 +1,78 @@
+*{
+    font-size: 1.05em;
+}
+
+.Form_Container{
+    position: relative;
+    top: 5em;
+    display: flex;
+    max-width: 350px;
+    min-width: 250px;
+    margin-bottom: 50px;
+    margin: auto;
+    padding: 10px;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    border-radius: 6px;
+}
+
+.Form_Field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.j_noSelect {
+    background-color: #fbb034;
+    padding: 10px; 
+    margin:    ; 
+    height: 40px;
+    min-width: 100px;
+    border-top: solid 2px #ff9900;
+    border-bottom: solid 2px #ff9900;
+    border-left: solid 2px #ff9900;
+}
+.j_Select {
+    background-color: #f47721;
+    padding: 10px; 
+    margin: ;
+    height: 40px;
+    min-width: 100px;
+    border-top: solid 2px #EEEEEE;
+    border-bottom: solid 2px #ffdd00;
+    border-left: solid 2px #ff9900; 
+}   
+#tabContainer {
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+.tab {
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+.exe{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+.plus{
+    font-size: 3em;
+}
+
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }

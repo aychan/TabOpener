@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+            
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        
+        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+        <script src="openTab.js"></script>
+    </head>
+    <header></header>
+    <body>
+       
+      
+        
+        <!--
+        <div id="tabContainer">
+        
+         <div  class="j_noSelect tab" value="#" jSelected=false>[WEBSITE]</div>  
+
+        </div>
+        -->
+        
+        
+        <div id="above_div" class="tab">
+            
+        </div>
+        
+        <br>
+        
+        <div class="tab">
+            <a id="Add_Tab" class="exe ">ADD</a>
+            <a id="DTO" class="exe ">OPEN</a>
+            <a id="SelectAll" class="exe ">Select All</a>
+            <a id="DeSelectAll" class="exe ">DeSelect All</a>
+            <a id="DeleteTab" class = "exe">Delete</a>
+            <a id="ReOrder" class = "exe">ReOrder</a>
+            
+        </div>
+         <br>
+        <div id="AddForm" class="Form_Container">    
+            
+                    <div class="Form_Field">
+                        <h1>Add a tab</h1>
+            Website
+                            <div id="Website_Error">Please enter a website name</div>
+                            <input type="text" id="website_input" value="" placeholder="Website">
+                    
+            URL
+                    
+                            <div id="URL_Error">Please enter the URL</div>
+                            <input type="text" id="URL_input" value="" placeholder="http://www.theURL.com">
+                        <input type="button" id="ADD" value="Add">
+                        <input type="button" id="Cancel_ADD" value="Cancel">
+                    </div>
+            
+            
+        </div>
+        
+        
+        
+<!--<ul id="sortable">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+</ul>-->
+          <!--
+         <script src="assets/js/jquery.min.js"></script>      
+            -->
+    </body>
+
+</html>
